@@ -146,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://heroku.com/deploy?template=https://github.com/jithin123455/tgbot")],
                      [InlineKeyboardButton(text="👥 MORE BOTS", url="https://t.me/kalyaniv1"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/KALYANIV1")],
-                     [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/stealthtechnogaming?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://youtube.com/channel/UCd2dMIZ2aA7rzSUMokANHRA"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
